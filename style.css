@@ -308,7 +308,13 @@ body {
 }
 
 /*Restaurant pages Details > Arrow return*/
-article > a,
+article > a {
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: black;
+}
+
 .header_restaurant_arrow > a {
   height: 100%;
   width: 100%;
@@ -558,7 +564,6 @@ article > a,
 .section_article__pictures {
   height: 70%;
   width: 100%;
-  display: flex;
   position: relative;
 }
 .section_article__pictures_restaurants {
@@ -606,6 +611,11 @@ article > a,
   font-family: "Roboto";
   font-weight: normal;
   text-align: left;
+}
+.section_article__text_restaurants > a {
+  width: 100%;
+  text-decoration: none;
+  color: black;
 }
 .section_article__text_restaurants_heart {
   display: flex;
