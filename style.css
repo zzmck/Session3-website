@@ -127,6 +127,10 @@
   font-family: "Roboto";
 }
 
+.visually-hidden {
+  display: none;
+}
+
 /*Largeur minimum de la page*/
 /*Minimum page width*/
 body {
