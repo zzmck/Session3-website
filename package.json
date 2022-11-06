@@ -1,0 +1,20 @@
+{
+    "name": "parcour3",
+    "version": "1.0.0",
+    "description": "Ohmyfood projet 3 OpenclassRoom",
+    "main": "index.js",
+    "scripts": {
+        "sass": "sass --watch sass/main.scss style.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zzmck/Session3.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/zzmck/Session3/issues"
+    },
+    "homepage": "https://github.com/zzmck/Session3#readme"
+}

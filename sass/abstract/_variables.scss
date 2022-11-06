@@ -1,0 +1,46 @@
+//COULEURS DU SITE
+$primary_color: #9356DC;
+$secondary_color:#FF79DA;
+$tertiary_color:#99E2D0;
+$color_new_darken:darken($tertiary_color, 40%);
+$color_black: black;
+$color_white:white;
+$color_grey:grey;
+$color_grey_lighten_25:lighten($color_grey, 25%);
+$color_grey_lighten_30:lighten($color_grey, 30%);
+$color_grey_lighten_35:lighten($color_grey, 35%);
+$color_grey_lighten_45:lighten($color_grey, 45%);
+$color_grey_lighten_47:lighten($color_grey, 47%);
+$color_grey_darken_25:darken($color_grey, 25%);
+$color_grey_darken_40:darken($color_grey, 40%);
+$color_button_hover:lighten($primary_color, 35%);
+//TEXTE DU SITE
+$h3_font-size:50px;
+$h3_margin-buttom:20px;
+$text_family_primary:"Shrikhand";
+$text_family_secondary:"Roboto";
+//BREAKPOINTS
+$tablet: "768px";
+$desktop: "1100px";
+$desktop_xl: "1700px";
+//TAILLE DES TEXTES
+//page Acceuil
+$text_xxl:27px;
+$text_xl:20px;
+$text_l:15px;
+$text_m:13px;
+$text_s:13px;
+$text_xs:12px;
+//butons
+$special_button_filter_icons:15px;
+$special_button_filter_text:14px;
+//footer
+$special_footer_text:20px;
+//Page menu restaurant
+$text_restaurant_xxl:28px;
+$text_restaurant_xl:25px;
+$text_restaurant_t:24px;
+$text_restaurant_l:16px;
+$text_restaurant_m:14px;
+$text_restaurant_s:13px;
+$text_restaurant_xs:12px;

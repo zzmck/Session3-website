@@ -1,0 +1,74 @@
+/*MIXIN FLEXBOX*/
+
+@mixin flex-center($direction) {
+    display: flex;
+    flex-direction: $direction;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@mixin flex-right($direction) {
+    display: flex;
+    flex-direction: $direction;
+    align-items: center;
+    justify-content: right;
+    flex-wrap: wrap;
+}
+
+@mixin flex-direction-align-justify-wrap($direction, $align, $justify, $wrap) {
+    display: flex;
+    flex-direction: $direction;
+    align-items: $align;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+}
+
+
+/*MIXIN BUTTON COLOR GRADIENT*/
+
+@mixin button($button_primary_color, $button_secondary_color) {
+    background-image: linear-gradient($button_primary_color, $button_secondary_color);
+    border: none;
+    color: white;
+    border-radius: 50px;
+    background-color: $button_primary_color;
+}
+
+
+/*MIXIN TEXT SIZE FAMILY WEIGHT ALIGN*/
+
+@mixin text($text_size, $text_family, $text_weight, $text_align) {
+    font-size: $text_size;
+    font-family: $text_family;
+    font-weight: $text_weight;
+    text-align: $text_align;
+}
+
+
+/*MIXIN PADDING TOP BOTTOM RIGHT LEFT*/
+
+@mixin padding($padding_top, $padding_bottom, $padding_right, $padding_left) {
+    padding-top: $padding_top;
+    padding-bottom: $padding_bottom;
+    padding-right: $padding_right;
+    padding-left: $padding_left;
+}
+
+
+/*MIXIN MARGIN TOP BOTTOM RIGHT LEFT*/
+
+@mixin margin($margin_top, $margin_bottom, $margin_right, $margin_left) {
+    margin-top: $margin_top;
+    margin-bottom: $margin_bottom;
+    margin-right: $margin_right;
+    margin-left: $margin_left;
+}
+
+
+/*MIXIN HEIGHT WIDTH*/
+
+@mixin height_width($height, $width) {
+    height: $height;
+    width: $width;
+}
