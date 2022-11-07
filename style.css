@@ -96,6 +96,14 @@
     height: 0%;
   }
 }
+@keyframes hoverheart {
+  from {
+    font-size: 15px;
+  }
+  to {
+    font-size: 25px;
+  }
+}
 @keyframes rotate-center {
   0% {
     -webkit-transform: rotate(0);
@@ -272,6 +280,7 @@ body {
 }
 .header_search_button:hover {
   background-image: linear-gradient(#9356DC, #FF79DA);
+  box-shadow: 0px 2px 8px #9a9a9a;
   cursor: pointer;
 }
 .header_search_button_background {
@@ -394,6 +403,7 @@ article > a {
 }
 .menu_filters_button:hover {
   background-color: #f2eafb;
+  box-shadow: 0px 2px 8px #9a9a9a;
   cursor: pointer;
 }
 .menu_filters_button:hover .fa-solid {
@@ -667,6 +677,9 @@ article > a {
 .section_article__adaptativ_border {
   object-position: 100% 60%;
 }
+.section_article:hover {
+  box-shadow: 0px 2px 8px #9a9a9a;
+}
 
 /*BLOC FOR RESTAURANT PAGE DETAILS*/
 .bloc_restaurant {
@@ -849,6 +862,10 @@ article > a {
   text-align: left;
   color: white;
 }
+.footer_menu_list_text > a {
+  text-decoration: none;
+  color: white;
+}
 .footer_menu_list_icons {
   height: auto;
   width: 20px;
@@ -872,26 +889,18 @@ article > a {
   font-family: "Font Awesome 5 Free";
   content: "\f004";
   font-weight: normal;
-  transition: color 1s ease-out;
 }
 .fa-heart::before .fa-regular {
   display: none;
 }
-.fa-heart:hover::before {
+
+#heart_check1:checked ~ .fa-heart::before {
   font-weight: bold;
-  background: linear-gradient(0deg, rgb(255, 121, 218) 0%, rgb(147, 86, 220) 100%);
-  cursor: pointer;
-  background-clip: content-box;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
 }
 
 #heart_check1:checked ~ .fa-heart {
-  font-family: "Font Awesome 5 Free";
-  content: "\f004";
-  font-weight: normal;
+  animation: hoverheart 0.1s ease-in;
+  font-weight: bold;
   background: linear-gradient(0deg, rgb(255, 121, 218) 0%, rgb(147, 86, 220) 100%);
   background-clip: content-box;
   -webkit-background-clip: text;
@@ -905,10 +914,13 @@ article > a {
   display: none;
 }
 
+#heart_check2:checked ~ .fa-heart::before {
+  font-weight: bold;
+}
+
 #heart_check2:checked ~ .fa-heart {
-  font-family: "Font Awesome 5 Free";
-  content: "\f004";
-  font-weight: normal;
+  animation: hoverheart 0.1s ease-in;
+  font-weight: bold;
   background: linear-gradient(0deg, rgb(255, 121, 218) 0%, rgb(147, 86, 220) 100%);
   background-clip: content-box;
   -webkit-background-clip: text;
@@ -922,10 +934,13 @@ article > a {
   display: none;
 }
 
+#heart_check3:checked ~ .fa-heart::before {
+  font-weight: bold;
+}
+
 #heart_check3:checked ~ .fa-heart {
-  font-family: "Font Awesome 5 Free";
-  content: "\f004";
-  font-weight: normal;
+  animation: hoverheart 0.1s ease-in;
+  font-weight: bold;
   background: linear-gradient(0deg, rgb(255, 121, 218) 0%, rgb(147, 86, 220) 100%);
   background-clip: content-box;
   -webkit-background-clip: text;
@@ -939,10 +954,13 @@ article > a {
   display: none;
 }
 
+#heart_check4:checked ~ .fa-heart::before {
+  font-weight: bold;
+}
+
 #heart_check4:checked ~ .fa-heart {
-  font-family: "Font Awesome 5 Free";
-  content: "\f004";
-  font-weight: normal;
+  animation: hoverheart 0.1s ease-in;
+  font-weight: bold;
   background: linear-gradient(0deg, rgb(255, 121, 218) 0%, rgb(147, 86, 220) 100%);
   background-clip: content-box;
   -webkit-background-clip: text;
@@ -956,10 +974,13 @@ article > a {
   display: none;
 }
 
+#heart_check5:checked ~ .fa-heart::before {
+  font-weight: bold;
+}
+
 #heart_check5:checked ~ .fa-heart {
-  font-family: "Font Awesome 5 Free";
-  content: "\f004";
-  font-weight: normal;
+  animation: hoverheart 0.1s ease-in;
+  font-weight: bold;
   background: linear-gradient(0deg, rgb(255, 121, 218) 0%, rgb(147, 86, 220) 100%);
   background-clip: content-box;
   -webkit-background-clip: text;
