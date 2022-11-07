@@ -127,6 +127,8 @@
   font-family: "Roboto";
 }
 
+/*Titre cachés*/
+/*Title hidden*/
 .visually-hidden {
   display: none;
 }
@@ -560,7 +562,6 @@ article > a {
   margin-bottom: 0;
   margin-right: 0;
   margin-left: 0;
-  /*max-width: 530px; */
   box-shadow: 0px 0px 20px silver;
   border-radius: 20px;
   max-width: 435px;
@@ -771,13 +772,13 @@ article > a {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.list_menu_details > label > h4 {
+.list_menu_details > h4 {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   font-size: 16px;
 }
-.list_menu_details > label > p {
+.list_menu_details > p {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
